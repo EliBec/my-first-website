@@ -1,0 +1,54 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: "Oswald",sans-serif; /* if Oswald is not avail, then use sans-serif */
+}
+
+nav ul {
+    list-style: none;
+    background-color: #4a4a4f;
+    text-align: center; 
+    margin:0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block; /* inline-block places the elements next to each other */
+    margin-left: 2.5%
+}
+
+nav a {
+    text-decoration: none; /* we use "none" so that the underline is removed */
+    color: #ffffff;
+    display: block;
+}
+
+/* here we create some style specifcation for when we hover over the links */
+nav a:hover {
+    background-color: #ffffff;
+    color: #4a4a4f;
+}
+
+/* style the "card" class */
+.card {
+   float:left;
+   width:20%;
+   margin-left: 10%;
+}
+
+/* style targeted to a under the "card" class */
+.card a {
+    text-align: center;
+}
+
+img {
+    width:100%;  /* this percentage is relative to its parent/container element, which is <div> which has a width of 20% */
+}
+
+h1 {
+    text-align: center;
+}
+
